@@ -1,0 +1,86 @@
+<html>
+
+<head>
+  <title>Tim Artarov.de</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="parent" style=" overflow: auto;">
+        <nav class="navbar">
+            <!-- LOGO -->
+      
+            <div class="logo" style="font-size: 24px; color: powderblue; font-family: myFirstFont">
+             <span class="marker">Tim Artarov</span> 
+            </div>
+      
+            <!-- NAVIGATION MENU -->
+      
+            <ul class="nav-links">
+      
+              <!-- USING CHECKBOX HACK -->
+      
+            <!--   <input type="checkbox" id="checkbox_toggle" />
+      
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label> -->
+      
+              <!-- NAVIGATION MENUS -->
+      
+              <div class="menu" style="font-size: 24px; color: powderblue; font-family: myFirstFont">
+                <li><a href="/">SafeSpace</a></li>
+      
+                <li><a href="/aboutMe.html">About Me</a></li>
+      
+                <li><a href="/skills.html">Skills</a></li>
+      
+                <li class="services">
+                  <a href="/projects.html">Projects</a>
+      
+                  
+      
+                  <!-- DROPDOWN MENU -->
+      
+                  <ul class="dropdown">
+                    <li><a href="/projects.html">Project 1 </a></li>
+      
+                    <li><a href="/projects.html">Project 2</a></li>
+      
+                    <li><a href="/projects.html">Project 2</a></li>
+      
+                    <li><a href="/projects.html">Project 3</a></li>
+      
+                    <li><a href="/projects.html">Project 4</a></li>
+                  </ul>
+                </li>
+      
+                <li><a href="/contatcs.html">Contact</a></li>
+              </div>
+            </ul>
+          </nav>
+          <div class="container">
+            <form action="SubmitConatct.html">
+          
+              <label for="fname" style="font-size: 13px; color: #2e7b7f;  font-family: myFirstFont;">Vorname</label>
+              <input type="text" id="fname" name="firstname" placeholder="Eric" style="font-family: myFirstFont">
+          
+              <label for="lname"  style="font-size: 13px;  color: #2e7b7f;  font-family: myFirstFont">Nachname</label>
+              <input type="text" id="lname" name="lastname" placeholder="Rosen" style="font-family: myFirstFont">
+          
+              <label for="country"  style="font-size: 13px;  color: #2e7b7f;  font-family: myFirstFont">Land</label>
+              <select id="country" name="country" style="font-family: myFirstFont">
+                <option value="ukraine">Bitte wähle dein Land aus</option>
+                <option value="ukraine">Ukraine</option>
+                <option value="deutschland">Deutschland</option>
+                <option value="usa">USA</option>
+                <option value="andere">Andere</option>
+              </select>
+          
+              <label for="subject"  style="font-size: 13px;  color: #2e7b7f;  font-family: myFirstFont">Deine Nachricht</label>
+              <textarea id="subject" name="subject" placeholder="Schreibe hier rein..." style="height:100px; font-family: myFirstFont"></textarea>
+          
+              <input type="submit" value="Submit" style="font-family: myFirstFont">
+          
+            </form>
+          </div>
+    </div>
+</body>
